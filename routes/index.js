@@ -1,9 +1,15 @@
+"use strict";
+
 const express = require("express");
+
 const router = express.Router();
 
-/* GET home page. */
 router.get("/", function(req, res, next) {
-  res.render("index");
+  if (req.user) {
+    res.redirect("/team");
+  } else {
+    res.redirect("/auth/login");
+  }
 });
 
 module.exports = router;

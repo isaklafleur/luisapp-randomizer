@@ -1,0 +1,11 @@
+<h1>Teams</h1>
+
+<% if (teams.length) { %>
+  <ul>
+    <% teams.forEach(team => { %>
+      <li>
+        <%= team.name %>
+      </li>
+      <% }) %>
+  </ul>
+  <% } %>

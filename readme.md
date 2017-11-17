@@ -1,5 +1,10 @@
 # User Stories
 
+## Home page redirect
+
+If user is not logged in then it should be redirect to login.
+
+
 ## Signup
 
 As a team lead I want to signup so that I can start managing my teams.
@@ -14,7 +19,7 @@ As a team lead I want to view all the teams.
 
 ## Add Team
 
-As A team leand I want to add a team so that I can manage it
+As a Team Lead I want to add a team so that I can manage it later.
 
 
 ## View Team Members
@@ -47,3 +52,11 @@ As A team leand I want to add a team so that I can manage it
  ## Reshuffle Assignment
 
  As a team lead I should be able to reshuffle the group to make a better combinations.
+
+
+ #DONE
+
+## 404
+
+
+## 500
